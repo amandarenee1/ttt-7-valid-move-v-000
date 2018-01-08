@@ -7,7 +7,7 @@ def valid_move?(board, position)
  end
 
 def valid_move?(number_entered, board)
-  number_entered.between?(0, 8) && !(position_taken?(board, number_entered)) 
+  number_entered.between?(0, 8) && !(position_taken?(board, number_entered))
 end
 end
 
